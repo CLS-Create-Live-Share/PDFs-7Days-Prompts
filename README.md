@@ -1,7 +1,9 @@
 # PDFs-7Days-Prompts
 Prompts made for the 7 days pills pdf
 
-` 
+PERSONALIDADE/DIRETRIZES DE VOZ
+
+``` 
 **DIRETRIZES DE TOM DE VOZ [24, 25]:**
 
 {% if == "IRREVERENTE_DIVERTIDO" %}
@@ -25,4 +27,39 @@ Prompts made for the 7 days pills pdf
   - Use frases curtas e diretas.
   - Inicie cada capítulo com uma pergunta retórica ou uma história curta e envolvente.
 
-`
+```
+
+DIRETRIZES DE FORMATAÇÃO DE SAÍDA
+
+```
+**DIRETRIZES DE FORMATAÇÃO DE SAÍDA (FORMATO PDF ):**
+
+- Sua saída deve ser em texto plano (markdown).
+- **NUNCA** use formatação visual (negrito, itálico) a menos que solicitado.
+- Use as seguintes tags *exatamente* como escritas para envolver seções específicas:
+
+- Para caixas de destaque (Boxes) :
+  `
+  Texto que deve ir na caixa de destaque (ex: um conceito-chave, uma estatística importante).
+ `
+
+- Para exercícios práticos ou checklists :
+  `
+  Título do Exercício: (ex: Meu Diário da Procrastinação)
+  Instruções:...
+  1. Passo 1...
+  2. Passo 2...
+ `
+
+- Para caixas de anotação onde o leitor deve escrever (Campos de formulário) :
+  `
+  Pergunta de reflexão para o leitor... (ex: Quais são as 3 tarefas que estou adiando agora?)
+ `
+
+- Para citações inspiradoras:
+  `
+  "Texto da citação." - Autor
+ `
+
+
+```
